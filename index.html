@@ -19,7 +19,79 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar Section -->
-    <div>Navigation</div>
+      <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" d-none>
+        <img src="assets/favicon/logo-sm-white.png" alt="Boardwalk Games" class="logo d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <span class="navbar-text d-none d-lg-block">
+            |
+          </span>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <span class="navbar-text d-none d-lg-block">
+            |
+          </span>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <span class="navbar-text d-none d-lg-block">
+            |
+          </span>
+          <li class="nav-item">
+            <a class="nav-link" href="game-library.html">Games</a>
+          </li>
+          <span class="navbar-text d-none d-lg-block">
+            |
+          </span>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booknowModal">
+              Book now
+            </button>
+          </li>
+          <!-- Modal -may move this later - also bit repetitive but will need again -->
+          <div class="modal fade" id="booknowModal" tabindex="-1" aria-labelledby="booknowModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="booknowModalLabel">Book now</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
     <!-- Header with Carousel -->
     <header id="header" class="container section">
         <div class="row">
