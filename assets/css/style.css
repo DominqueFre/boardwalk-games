@@ -62,16 +62,15 @@ h2 {
 
 .custon-button-outline {
     border: 3px solid var(--highlight-color);
-    background-color: white;
-    color: var(--highlight-color);
+
     padding: 7px 25px
 }
 
 .custon-button-outline:hover {
-    border: 3px solid var(--highlight-color);
+    
     background-color: var(--highlight-color);
     color: white;
-    padding: 7px 25px
+   
 }
 
 /* Navbar styles */
