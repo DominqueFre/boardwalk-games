@@ -46,6 +46,34 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* buttons */
+
+.custon-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custon-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custon-button-outline {
+    border: 3px solid var(--highlight-color);
+    background-color: white;
+    color: var(--highlight-color);
+    padding: 7px 25px
+}
+
+.custon-button-outline:hover {
+    border: 3px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 7px 25px
+}
+
 /* Navbar styles */
 #navbar {
     background-color: var(--primary-color);
@@ -92,18 +120,18 @@ h2 {
 #contact i,
 #contact .vr {
     color: var(--secondary-color);
-    font-size :1.2rem;
+    font-size: 1.2rem;
     margin-right: 15px;
 }
 
-#contact .social-links i  {
+#contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
 
-#contact .social-links .vr{
-    font-size : 1.5rem;
+#contact .social-links .vr {
+    font-size: 1.5rem;
 }
 
 #contact .social-links i:hover {
