@@ -48,7 +48,8 @@ h2 {
 
 /* buttons */
 
-.custon-button-filled {
+.custon-button-filled
+ {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
@@ -62,7 +63,7 @@ h2 {
 
 .custon-button-outline {
     border: 3px solid var(--highlight-color);
-
+    color: var(--highlight-color);
     padding: 7px 25px
 }
 
@@ -72,7 +73,14 @@ h2 {
     color: white;
    
 }
+.custom-button-sharp,
+.custom-button-sharp:hover {
+    border-radius: 0;
+     background-color: var(--highlight-color);
+    color: white;
+    margin-right:none;
 
+}
 /* Navbar styles */
 #navbar {
     background-color: var(--primary-color);
@@ -97,6 +105,10 @@ h2 {
 #new-games .card,
 #favourites .card {
     border: none;
+}
+/* events - table too big! even after made small */
+#events table {
+    font-size: 0.9rem;
 }
 
 /* footer/contact */
