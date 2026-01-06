@@ -1,3 +1,4 @@
+
 /* @import Google Fonts Maconda and Inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
@@ -82,7 +83,7 @@ h2 {
     border-radius: 0;
      background-color: var(--highlight-color);
     color: white;
-    margin-right:none;
+    margin-right: 0;
 
 }
 /* Navbar styles */
@@ -142,6 +143,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -157,47 +160,3 @@ h2 {
     background-color: transparent;
 }
 
-
-/* Could also add gy-3 or similar class, to row - also allows h-100 to be used with card -must be on all cards*/
-/* #services .card {
-    margin-bottom: 1.5rem
-} */
-
-/* grid visualisation CSS for testing */
-/* .container, .row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgrey;
-} */
-
-/* Media Queries */
-
-/* to sort out odd height cards on services section - only an issue from md and above - 
-bs md is 768px */
-/* - used h-100 and gy-4/*  */
-/* @media screen and (max-width: 768px) {
-    #services .card-body {
-        min-height: 191px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    #services .card-body {
-        min-height: auto;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    #services .card-body {
-        min-height: 220px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #services .card-body {
-        min-height: 195px;
-    }
-} */
